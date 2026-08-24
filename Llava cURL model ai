@@ -1,0 +1,5 @@
+curl http://localhost:11434/api/chat \
+  -d '{
+    "model": "llava",
+    "messages": [{"role": "user", "content": "Hello!"}]
+  }'
